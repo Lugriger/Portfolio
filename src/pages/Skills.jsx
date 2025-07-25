@@ -73,10 +73,10 @@ function Skills() {
             
                 <ul className="py-35 px-4 grid grid-cols-1 md:grid-cols-4 items-center lg:grid-cols-8 gap-8 justify-center tracking-wider">
                     {skills.map((skill, index) => (
-                        <li key={index} className="p-4 flex flex-row  md:flex-col items-center text-start md:text-center gap-4 justify-between">
+                        <li key={index} className="p-4 flex flex-col  items-center text-center gap-4 justify-between">
                             <span className={`text-8xl ${skill.color}`}>{skill.logo}</span>
                             <p className={`text-xl ${skill.color}`}>{skill.type}</p>
-                            <p className="text-sm font-sans  font-semibold px-2 py-2 max-w-60  bg-boxColor rounded-lg max-h-[240px] text-txCol">{skill.description}</p>
+                            <p className="text-sm font-sans  font-semibold px-2 py-2 max-w-60 bg-boxColor rounded-lg max-h-[240px] text-txCol">{skill.description}</p>
                         </li>
                     ))}
 
