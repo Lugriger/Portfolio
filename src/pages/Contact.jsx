@@ -66,7 +66,7 @@ function Contact() {
 
   return (
     <section id="contact" className="min-h-screen flex flex-col items-center justify-center px-6 py-12 ">
-      <hr className=" backdrop-blur-3xl  w-3/4 h-4 mb-30"/>
+      <hr className="  w-3/4 h-4 mb-30"/>
       <h2 className="text-4xl mb-10 border-2 max-w-96 rounded-lg px-8 py-4 bg-boxColor">Contact Me</h2>
 
       <form
