@@ -1,7 +1,7 @@
 import { useEffect, useState} from "react";
 import Navbar from "./components/Navbar";
 import Loader from "./components/Loader";
-import FadeContent from './components/FadeContent';
+
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
@@ -102,7 +102,7 @@ useEffect(() => {
         <>
           
 
-          <FadeContent blur={false} duration={800} easing="ease-in-out" >
+          
             <Navbar />
             <main className="bg-bgCol w-full min-h-screen pt-16 font-bebas text-txCol ">
               <Home />
@@ -113,7 +113,7 @@ useEffect(() => {
               <Footer/>
             </main>
             
-          </FadeContent>
+          
           <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 flex flex-col items-center z-50 animate-bounce text-arrow">
             {!atBottom ? (
             <button onClick={handleArrowClick} className="flex flex-col justify-center items-center cursor-pointer">
