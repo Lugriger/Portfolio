@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --color-js:  #F0DB4F;
+
+
+    --animate-spinSlow: spinSlow 5s infinite linear;
+    @keyframes spinSlow {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+        
+    }
+    --font-bebas: 'Bebas Neue';
+    --color-bgCol: #c5ccf76e;
+    --color-txCol: #111827;
+    --color-boxColor: #d1d5db;
+    --color-navCol: #d1d5db;
+    --color-hoverCol: #9ca3af;
+    --color-hoverTxt: #f59e0b;
+    --color-arrow: black;
+    
+}
+@layer theme{
+    .dark {
+        --color-bgCol: #111827;
+        --color-txCol: #f59e0b;
+        --color-boxColor: #030712;
+        --color-navCol: #030712;
+        --color-hoverCol: #030712;
+        --color-hoverTxt: #d97706;
+        --color-arrow: white;
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
