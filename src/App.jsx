@@ -102,7 +102,7 @@ useEffect(() => {
         <>
           
 
-          <FadeContent blur={true} duration={800} easing="ease-in-out" initialOpacity={0.5}>
+          <FadeContent blur={false} duration={800} easing="ease-in-out" initialOpacity={0.5}>
             <Navbar />
             <main className="bg-bgCol w-full min-h-screen pt-16 font-bebas text-txCol ">
               <Home />
