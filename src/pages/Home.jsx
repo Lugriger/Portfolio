@@ -15,7 +15,7 @@ function Home() {
 
             <div className="flex flex-col sm:flex-row min-w-full gap-12 px-8  items-center justify-center">
                 <div className="justify-end flex px-14 w-full">
-                    <img className='w-screen min-w-[200px] md:w-[500px] rounded-2xl h-full shadow-md hover:scale-110 transition-all duration-200'src="./images/prPic.jpg" alt="profile picture" />
+                    <img className='w-screen min-w-[200px] md:w-[500px] rounded-2xl h-full shadow-md hover:scale-110 transition-all duration-200'src="./images/prPic.webp" alt="profile picture" />
                 </div>
                 <div className="w-full max-sm:w-screen max-sm:px-8 flex flex-col gap-5 items-center md:items-start">
                     <h1 className="text-4xl mb-2 leading-6">Hi , I'am </h1>
