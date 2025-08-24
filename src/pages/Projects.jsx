@@ -10,6 +10,15 @@ function Projects() {
       demo: "https://calculator-ten-ruddy-18.vercel.app/",
     },
     {
+      title: "Demo E-shop",
+      img: "/images/e-shop.png",
+      description:
+        "A demo e-commerce store built for learning purposes. Browse products, view details, manage a shopping cart, and simulate a checkout process. Built with React, React Router, Context API, and Tailwind CSS.",
+      github: "https://github.com/Lugriger/demo-eshop",
+      demo: "https://demo-eshop-iota.vercel.app/products"  
+    },
+
+    {
       title: "Starbucks Clone (Work in Progress)",
       img: "/images/starbucks.png",
       description:
