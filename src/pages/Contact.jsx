@@ -58,6 +58,7 @@ function Contact() {
     } catch (error) {
       setSuccess(false);
       alert("Error sending message");
+      console.error(error)
     }
   } else {
     setSuccess(false);

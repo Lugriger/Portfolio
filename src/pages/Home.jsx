@@ -35,7 +35,7 @@ function Home() {
                         <p className="text-xl font-sans font-semibold"> I'm a self-taught web developer exploring the world of frontend and backend technologies.
                         </p>
                     </div>
-                    <a href="/LukasGrigerCV.pdf" download className='w-40  text-xl border flex justify-center rounded-2xl text-center hover:bg-hoverCol transition-all duration-300'>download CV</a>
+                    <a href="/LukasGrigerEngcv.pdf" download className='w-40  text-xl border flex justify-center rounded-2xl text-center hover:bg-hoverCol transition-all duration-300'>download CV</a>
 
                 </div>
 
