@@ -15,7 +15,7 @@ function Projects() {
       description:
         "A demo e-commerce store built for learning purposes. Browse products, view details, manage a shopping cart, and simulate a checkout process. Built with React, React Router, Context API, and Tailwind CSS.",
       github: "https://github.com/Lugriger/demo-eshop",
-      demo: "https://demo-eshop-iota.vercel.app/products"  
+      demo: "https://demo-eshop-iota.vercel.app/"  
     },
 
     {
